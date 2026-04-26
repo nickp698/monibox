@@ -1,0 +1,25 @@
+{
+  "name": "monibox-ios",
+  "version": "1.0.0",
+  "description": "Monibox — Family Finance iOS App",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'No build step needed'",
+    "cap:sync": "npx cap sync ios"
+  },
+  "author": "Nicholas James Phillips",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@capacitor/app": "^8.1.0",
+    "@capacitor/cli": "^8.3.1",
+    "@capacitor/core": "^8.3.1",
+    "@capacitor/haptics": "^8.0.2",
+    "@capacitor/ios": "^8.3.1",
+    "@capacitor/keyboard": "^8.0.3",
+    "@capacitor/splash-screen": "^8.0.1",
+    "@capacitor/status-bar": "^8.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
