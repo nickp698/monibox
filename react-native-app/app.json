@@ -1,0 +1,69 @@
+{
+  "expo": {
+    "name": "Monibox",
+    "slug": "monibox",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a2e23"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "scheme": "monibox",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ai.monibox.native",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Monibox uses Face ID to protect your financial data",
+        "NSCameraUsageDescription": "Monibox uses the camera to scan documents and receipts",
+        "NSPhotoLibraryUsageDescription": "Monibox accesses photos to import documents and receipts",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "entitlements": {
+        "com.apple.developer.in-app-payments": true
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a2e23"
+      },
+      "package": "ai.monibox.native"
+    },
+    "updates": {
+      "enabled": true,
+      "url": "https://u.expo.dev/monibox",
+      "fallbackToCacheTimeout": 5000,
+      "checkAutomatically": "ON_LOAD"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "PLACEHOLDER_PROJECT_ID"
+      },
+      "supabaseUrl": "https://api.monibox.ai",
+      "supabaseAnonKey": "PLACEHOLDER_ANON_KEY"
+    },
+    "owner": "nickp698",
+    "plugins": [
+      "expo-secure-store",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#1a2e23",
+          "image": "./assets/splash.png",
+          "imageWidth": 200
+        }
+      ]
+    ]
+  }
+}
