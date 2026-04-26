@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+build/
+ios/Pods/
+ios/DerivedData/
+*.ipa
+.env
