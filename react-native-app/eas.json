@@ -1,0 +1,45 @@
+{
+  "cli": {
+    "version": ">= 12.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "simulator": false,
+        "resourceClass": "m-medium"
+      },
+      "channel": "development"
+    },
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m-medium"
+      },
+      "channel": "preview"
+    },
+    "production": {
+      "ios": {
+        "resourceClass": "m-medium",
+        "autoIncrement": true
+      },
+      "channel": "production",
+      "autoSubmit": true,
+      "submitProfile": "production"
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "phillips.nickj@gmail.com",
+        "ascAppId": "PLACEHOLDER_APP_ID",
+        "appleTeamId": "PLACEHOLDER_TEAM_ID"
+      }
+    }
+  },
+  "update": {
+    "channel": "production"
+  }
+}
