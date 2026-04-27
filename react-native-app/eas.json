@@ -25,9 +25,7 @@
         "resourceClass": "m-medium",
         "autoIncrement": true
       },
-      "channel": "production",
-      "autoSubmit": true,
-      "submitProfile": "production"
+      "channel": "production"
     }
   },
   "submit": {
@@ -38,8 +36,5 @@
         "appleTeamId": "2LGHQV27NR"
       }
     }
-  },
-  "update": {
-    "channel": "production"
   }
 }
