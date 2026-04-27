@@ -48,7 +48,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "SET_BY_EAS_INIT"
+        "projectId": "4d36b911-817d-41c7-9c0a-5357efee5580"
       },
       "supabaseUrl": "https://api.monibox.ai",
       "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndtdGlzcXp1Z3J3YXNscHVtcWJiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzUzOTk4NTYsImV4cCI6MjA5MDk3NTg1Nn0.WHZYddgODg88BvmFUX7zHcqyxbTDugl4keLm929_Hb8"
