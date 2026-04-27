@@ -9,21 +9,24 @@
       "distribution": "internal",
       "ios": {
         "simulator": false,
-        "resourceClass": "m-medium"
+        "resourceClass": "m-medium",
+        "image": "latest"
       },
       "channel": "development"
     },
     "preview": {
       "distribution": "internal",
       "ios": {
-        "resourceClass": "m-medium"
+        "resourceClass": "m-medium",
+        "image": "latest"
       },
       "channel": "preview"
     },
     "production": {
       "ios": {
         "resourceClass": "m-medium",
-        "autoIncrement": true
+        "autoIncrement": true,
+        "image": "latest"
       },
       "channel": "production"
     }
