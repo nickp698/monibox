@@ -40,9 +40,7 @@ async function getVaultContext(): Promise<string> {
   }
 
   return summaries.length > 0
-    ? `User's vault data:
-${summaries.join('
-')}`
+    ? `User's vault data:\n${summaries.join('\n')}`
     : 'User has no vault data yet.';
 }
 
@@ -90,3 +88,4 @@ export async function sendToAlfred(
     return "I apologise, I'm experiencing a temporary issue. Please try again in a moment.";
   }
 }
+g
