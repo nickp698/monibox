@@ -3,7 +3,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { createClient } from '@supabase/supabase-js';
 
 const SUPABASE_URL = 'https://api.monibox.ai';
-const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY'; // Same key as web app
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndtdGlzcXp1Z3J3YXNscHVtcWJiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzUzOTk4NTYsImV4cCI6MjA5MDk3NTg1Nn0.WHZYddgODg88BvmFUX7zHcqyxbTDugl4keLm929_Hb8'; // Same key as web app
 
 export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
   auth: {
