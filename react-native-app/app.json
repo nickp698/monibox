@@ -48,10 +48,10 @@
     },
     "extra": {
       "eas": {
-        "projectId": "PLACEHOLDER_PROJECT_ID"
+        "projectId": "SET_BY_EAS_INIT"
       },
       "supabaseUrl": "https://api.monibox.ai",
-      "supabaseAnonKey": "PLACEHOLDER_ANON_KEY"
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndtdGlzcXp1Z3J3YXNscHVtcWJiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzUzOTk4NTYsImV4cCI6MjA5MDk3NTg1Nn0.WHZYddgODg88BvmFUX7zHcqyxbTDugl4keLm929_Hb8"
     },
     "owner": "nickp698",
     "plugins": [
