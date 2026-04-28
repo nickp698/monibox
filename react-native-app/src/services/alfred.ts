@@ -88,4 +88,3 @@ export async function sendToAlfred(
     return "I apologise, I'm experiencing a temporary issue. Please try again in a moment.";
   }
 }
-g
