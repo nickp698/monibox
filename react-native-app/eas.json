@@ -10,7 +10,7 @@
       "ios": {
         "simulator": false,
         "resourceClass": "m-medium",
-        "image": "latest"
+        "image": "macos-sequoia-15.4-xcode-16.3"
       },
       "channel": "development"
     },
@@ -18,7 +18,7 @@
       "distribution": "internal",
       "ios": {
         "resourceClass": "m-medium",
-        "image": "latest"
+        "image": "macos-sequoia-15.4-xcode-16.3"
       },
       "channel": "preview"
     },
@@ -26,7 +26,7 @@
       "ios": {
         "resourceClass": "m-medium",
         "autoIncrement": true,
-        "image": "latest"
+        "image": "macos-sequoia-15.4-xcode-16.3"
       },
       "channel": "production"
     }
