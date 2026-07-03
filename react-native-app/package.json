@@ -2,7 +2,7 @@
   "name": "monibox-native",
   "version": "1.0.0",
   "private": true,
-  "description": "Monibox — Family Finance (Expo Managed)",
+  "description": "Monibox — Family Finance (Expo Managed, WebView shell)",
   "main": "index.js",
   "scripts": {
     "start": "expo start",
@@ -10,42 +10,24 @@
     "android": "expo start --android",
     "build:ios": "eas build --platform ios --profile production",
     "build:ios:preview": "eas build --platform ios --profile preview",
-    "build:dev": "eas build --platform ios --profile development",
     "update": "eas update --branch production",
-    "update:preview": "eas update --branch preview",
-    "submit:ios": "eas submit --platform ios",
-    "lint": "eslint .",
-    "test": "jest"
+    "submit:ios": "eas submit --platform ios"
   },
   "dependencies": {
-    "expo": "~52.0.0",
-    "react-native-webview": "13.12.5",
-    "expo-asset": "~11.0.1",
-    "expo-updates": "~0.27.0",
-    "expo-status-bar": "~2.0.0",
-    "expo-haptics": "~14.0.0",
-    "expo-secure-store": "~14.0.0",
-    "expo-splash-screen": "~0.29.0",
-    "expo-linking": "~7.0.0",
-    "expo-constants": "~17.0.0",
-    "expo-dev-client": "~5.0.0",
-    "react": "18.3.1",
-    "react-native": "0.76.9",
-    "react-native-screens": "~4.4.0",
-    "react-native-safe-area-context": "~4.12.0",
-    "react-native-gesture-handler": "~2.20.2",
-    "react-native-reanimated": "~3.16.0",
-    "@react-navigation/native": "^7.0.0",
-    "@react-navigation/bottom-tabs": "^7.0.0",
-    "@react-navigation/stack": "^7.0.0",
-    "@supabase/supabase-js": "^2.49.0",
-    "@react-native-async-storage/async-storage": "1.23.1",
-    "react-native-iap": "^12.16.4",
-    "react-native-url-polyfill": "^2.0.0"
+    "expo": "~55.0.0",
+    "expo-constants": "~55.0.16",
+    "expo-secure-store": "~55.0.14",
+    "expo-splash-screen": "~55.0.21",
+    "expo-status-bar": "~55.0.6",
+    "expo-updates": "~55.0.24",
+    "react": "19.2.0",
+    "react-native": "0.83.6",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-webview": "13.16.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.0",
-    "@types/react": "~18.3.0",
-    "typescript": "~5.3.0"
+    "@types/react": "~19.2.0",
+    "typescript": "~5.9.0"
   }
 }
